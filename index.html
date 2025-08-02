@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Syndicate Watches</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+    .font-glacial {
+    font-family: 'Glacial Indifference', sans-serif;
+  }
+</style>
+
+</head>
+<body class="bg-white text-gray-900">
+
+  <!-- 🌐 NAVBAR -->
+  <header class="sticky top-0 bg-white shadow z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex flex-col items-center">
+        <img src="SWlogo.png" alt="Syndicate Logo" class="h-12 mb-1" />
+        <h1 class="text-1g font-light tracking-wide font-glacial">Syndicate Watches</h1>
+      </div>
+
+      <!-- Desktop Nav -->
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#men" class="hover:text-yellow-600">Men</a>
+        <a href="#women" class="hover:text-yellow-600">Women</a>
+        <a href="#blogs" class="hover:text-yellow-600">Blogs</a>
+        <a href="#brands" class="hover:text-yellow-600">Brands</a>
+      </nav>
+
+      <!-- Mobile Menu Toggle -->
+      <div class="md:hidden">
+        <button id="menu-toggle" class="focus:outline-none">
+          <svg class="w-6 h-6 text-gray-800" fill="none" stroke="currentColor" stroke-width="2"
+               viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden px-4 pb-4">
+      <a href="#men" class="block py-2, hover:text-yellow-600">Men</a>
+      <a style="padding-top: 10px" href="#women" class="block py-2, hover:text-yellow-600">Women</a>
+      <a style="padding-top: 10px" href="#blogs" class="block py-2, hover:text-yellow-600">Blogs</a>
+      <a style="padding-top: 10px" href="#brands" class="block py-2 hover:text-yellow-600">Brands</a>
+    </div>
+  </header>
+
+  <!-- 🕰️ HERO SECTION -->
+  <section class="bg-black text-white py-20 px-4 text-center">
+    <h2 class="text-4xl md:text-5xl font-bold mb-4">Time, Curated.</h2>
+    <p class="text-lg text-gray-300 mb-6">Luxury watches for every wrist. Handpicked from Amazon.</p>
+    <div class="flex justify-center space-x-4">
+      <a href="#men" class="px-6 py-3 bg-yellow-500 hover:bg-yellow-600 rounded-full text-black font-medium">Shop Men</a>
+      <a href="#women" class="px-6 py-3 border border-gray-300 hover:bg-gray-800 rounded-full font-medium">Explore Women</a>
+    </div>
+  </section>
+
+  <!-- 📂 CATEGORIES -->
+  <section class="max-w-7xl mx-auto py-16 px-4 text-center">
+    <h2 class="text-3xl font-semibold mb-12">Explore by Type</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="p-6 shadow hover:shadow-lg transition border rounded-lg">
+        <a target="_blank" href="#Analog_watches">
+        <h3 class="text-xl font-semibold mb-2">Analog Watches</h3>
+        <p class="text-sm text-gray-600">Classic designs for timeless appeal.</p></a>
+      </div>
+      <div class="p-6 shadow hover:shadow-lg transition border rounded-lg">
+        <a target="_blank" href="#Smart_watches">
+        <h3 class="text-xl font-semibold mb-2">Smart Watches</h3>
+        <p class="text-sm text-gray-600">Tech meets timekeeping.</p></a>
+      </div>
+      <div class="p-6 shadow hover:shadow-lg transition border rounded-lg">
+        <a target="_blank" href="#Digital_watches">
+        <h3 class="text-xl font-semibold mb-2">Digital Watches</h3>
+        <p class="text-sm text-gray-600">Modern style with utility built in.</p></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 👔 MEN'S WATCHES -->
+  <section id="men" class="bg-gray-50 py-16 px-4">
+    <h2 class="text-3xl font-semibold text-center mb-10">Watches for Men</h2>
+    <div class="overflow-x-auto">
+      <div id="men-carousel" class="flex space-x-6 px-4 overflow-x-auto snap-x scroll-smooth">
+        <!-- Card -->
+        <div class="min-w-[300px] max-w-[300px] bg-white p-4 rounded shadow hover:shadow-lg transition">
+          <img src="watches/analog_watches/Fastrack_Stunners_NT3291SM02​/Fastrack_Stunners_NT3291SM02__2.jpg" alt="Fastrack" class="mb-4 rounded w-full max-w-[250px] object-contain mx-auto">
+          <h3 class="text-lg font-semibold">Fastrack Stunners NT3291SM02​</h3>
+          <p class="text-gray-500 text-sm mb-2">Analog • 4.2 ★★★★☆ • ₹1,795</p>
+          <a target="_blank" href="watches/analog_watches/Fastrack_Stunners_NT3291SM02​/fastrack-nt3291sm02.html" class="inline-block mt-2 px-4 py-2 bg-yellow-500 text-black rounded-full font-medium">View Details</a>
+        </div>
+        <div class="min-w-[300px] max-w-[300px] bg-white p-4 rounded shadow hover:shadow-lg transition">
+          <img src="watches/analog_watches/Fossil_analog_FS4795/Fossil_analog_FS4795_1.jpg" alt="Fossil" class="mb-4 rounded w-full max-w-[250px] object-contain mx-auto">
+          <h3 class="text-lg font-semibold">Fossil Analog White Dial FS4795</h3>
+          <p class="text-gray-500 text-sm mb-2">Analog • 4.3 ★★★★☆ • ₹11,596</p>
+          <a target="_blank" href="watches/analog_watches/Fossil_analog_FS4795/fossil_analog_FS4795.html" class="inline-block mt-2 px-4 py-2 bg-yellow-500 text-black rounded-full font-medium">View Details</a>
+        </div>
+        <div class="min-w-[300px] max-w-[300px] bg-white p-4 rounded shadow hover:shadow-lg transition">
+          <img src="watches/Digital_Watches/Casio_Youth_Digital_Black_Dial_W-800H-5AVDF_(D334)/Casio_Youth_Digital_Black_Dial_W-800H-5AVDF_(D334)_1.jpg" alt="Casio" class="mb-4 rounded w-full max-w-[250px] object-contain mx-auto">
+          <h3 class="text-lg font-semibold">Casio Youth Digital W-800H-5AVDF</h3>
+          <p class="text-gray-500 text-sm mb-2">Digital • 4.3 ★★★★☆ • ₹2,495</p>
+          <a target="_blank" href="watches/Digital_Watches/Casio_Youth_Digital_Black_Dial_W-800H-5AVDF_(D334)/Casio_Youth_Digital_Black_Dial_W-800H-5AVDF_(D334).html" class="inline-block mt-2 px-4 py-2 bg-yellow-500 text-black rounded-full font-medium">View Details</a>
+        </div>
+        <div class="min-w-[300px] max-w-[300px] bg-white p-4 rounded shadow hover:shadow-lg transition">
+          <img src="watches/Digital_Watches/CasioVintageB640WD/CasioVintageB640WD-1AVDF-1.jpg" alt="Casio" class="mb-4 rounded w-full max-w-[250px] object-contain mx-auto">
+          <h3 class="text-lg font-semibold">Casio Vintage B640WD 1AVDF</h3>
+          <p class="text-gray-500 text-sm mb-2">Digital • 4.4 ★★★★☆ • ₹2,695</p>
+          <a target="_blank" href="watches/Digital_Watches/CasioVintageB640WD/CasioVintageB640WD.html" class="inline-block mt-2 px-4 py-2 bg-yellow-500 text-black rounded-full font-medium">View Details</a>
+        </div>
+
+        <!-- Add more cards here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 🖤 WOMEN'S WATCHES -->
+  <section id="women" class="bg-black text-white py-16 px-4">
+    <h2 class="text-3xl font-semibold text-center mb-10">Watches for Women</h2>
+    <div class="overflow-x-auto">
+     <div id="women-carousel" class="flex space-x-6 px-4 overflow-x-auto snap-x scroll-smooth">
+        <!-- Card -->
+        <div class="min-w-[300px] max-w-[300px] bg-gray-900 p-4 rounded shadow hover:shadow-xl transition">
+          <img src="watches/analog_watches/Titan_Analog_Brown_Dial_Women_Watch-2656WL01/Titan_analog_women_watch_2656WL01_2.jpg" alt="Titan" class="mb-4 w-full max-w-[250px] object-contain mx-auto">
+          <h3 class="text-lg font-semibold">Titan Brown Dial 2656WL01</h3>
+          <p class="text-gray-400 text-sm mb-2">Analog • 4.0 ★★★★☆ • ₹2,999</p>
+          <a target="_blank" href="watches/analog_watches/Titan_Analog_Brown_Dial_Women_Watch-2656WL01/titan-2656wl01.html" class="inline-block mt-2 px-4 py-2 bg-rose-500 text-white rounded-full font-medium">View Details</a>
+        </div>
+        <div class="min-w-[300px] max-w-[300px] bg-gray-900 p-4 rounded shadow hover:shadow-xl transition">
+          <img src="watches/analog_watches/TIMEX_Analog_women_TWEL155SMU09/TIMEX_Analog_women_TWEL155SMU09_1.jpg" alt="Timex" class="mb-4 w-full max-w-[250px] object-contain mx-auto">
+          <h3 class="text-lg font-semibold">Timex Analog Women TWEL155SMU09</h3>
+          <p class="text-gray-400 text-sm mb-2">Analog • 4.4 ★★★★☆ • ₹2,637</p>
+          <a target="_blank" href="watches/analog_watches/TIMEX_Analog_women_TWEL155SMU09/TIMEX_Analog_women_TWEL155SMU09.html" class="inline-block mt-2 px-4 py-2 bg-rose-500 text-white rounded-full font-medium">View Details</a>
+        </div>
+        <div class="min-w-[300px] max-w-[300px] bg-gray-900 p-4 rounded shadow hover:shadow-xl transition">
+          <img src="watches/analog_watches/Titan_Karishma_Analog_women_NM2598YM01/Titan_Karishma_Analog_women_NM2598YM01_1.png" alt="Titan" class="mb-4 w-full max-w-[250px] object-contain mx-auto">
+          <h3 class="text-lg font-semibold">Titan Karishma Analog NM2598YM01</h3>
+          <p class="text-gray-400 text-sm mb-2">Analog • 4.3 ★★★★☆ • ₹1,995</p>
+          <a target="_blank" href="watches/analog_watches/Titan_Karishma_Analog_women_NM2598YM01/Titan_Karishma_Analog_women_NM2598YM01.html" class="inline-block mt-2 px-4 py-2 bg-rose-500 text-white rounded-full font-medium">View Details</a>
+        </div>
+        <div class="min-w-[300px] max-w-[300px] bg-gray-900 p-4 rounded shadow hover:shadow-xl transition">
+          <img src="watches/analog_watches/Titan_Neoli_Analog_Women_NM2481SL07/Titan_Neoli_Analog_Women_NM2481SL07_1.jpg" alt="Titan" class="mb-4 w-full max-w-[250px] object-contain mx-auto">
+          <h3 class="text-lg font-semibold">Titan Ladies Neoli Analog NM2481SL07</h3>
+          <p class="text-gray-400 text-sm mb-2">Analog • 4.3 ★★★★☆ • ₹1,845</p>
+          <a target="_blank" href="watches/analog_watches/Titan_Neoli_Analog_Women_NM2481SL07/Titan_Neoli_Analog_Women_NM2481SL07.html" class="inline-block mt-2 px-4 py-2 bg-rose-500 text-white rounded-full font-medium">View Details</a>
+        </div>
+        <div class="min-w-[300px] max-w-[300px] bg-gray-900 p-4 rounded shadow hover:shadow-xl transition">
+          <img src="watches/analog_watches/Fastrack_Analog_Silver_Dial_Women_FV60074WM01/Fastrack_Analog_Silver_Dial_Women_FV60074WM01_1.jpg" alt="Fastrack" class="mb-4 w-full max-w-[250px] object-contain mx-auto">
+          <h3 class="text-lg font-semibold">Fastrack Analog Silver Dial FV60074WM01</h3>
+          <p class="text-gray-400 text-sm mb-2">Analog • 3.8 ★★★★☆ • ₹1,694</p>
+          <a target="_blank" href="watches/analog_watches/Fastrack_Analog_Silver_Dial_Women_FV60074WM01/Fastrack_Analog_Silver_Dial_Women_FV60074WM01.html" class="inline-block mt-2 px-4 py-2 bg-rose-500 text-white rounded-full font-medium">View Details</a>
+        </div>
+        <!-- Add more cards here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 🏷️ BRANDS -->
+  <section id="brands" class="py-12 px-4 text-center max-w-6xl mx-auto">
+    <h2 class="text-2xl font-semibold mb-6">Featured Brands</h2>
+    <div class="flex flex-wrap justify-center gap-6 text-gray-600">
+      <span>⌚ Fossil</span>
+      <span>⌚ Casio</span>
+      <span>⌚ Titan</span>
+    </div>
+  </section>
+
+  <!-- 📩 FOOTER -->
+  <footer class="bg-gray-100 py-8 text-center text-sm text-gray-500">
+    <p>&copy; 2025 Syndicate Watches. We use Amazon affiliate links and may earn a commission from your purchase. We are neither the manufacturer nor seller of the listed products. Buy at you own discretion.</p>
+  </footer>
+
+   <script src="script.js" defer></script>
+</body>
+</html>

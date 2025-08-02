@@ -1,0 +1,33 @@
+Menu
+├── Smart Watches
+│   ├── View All Watches
+│   ├── Fire-Boltt
+│   ├── Fastrack
+│   ├── Noise
+│   ├── boAt
+│   └── Samsung / Apple
+│
+├── Analog Watches
+│   ├── View All Watches
+│   ├── Fossil
+│   ├── Timex
+│   ├── Titan
+│   ├── Casio
+│   └── Daniel Wellington
+│
+├── Automatic Watches
+│   ├── View All Watches
+│   ├── Seiko
+│   ├── Orient
+│   └── Citizen
+│
+├── Digital Watches
+│   ├── View All Watches
+│   ├── Casio (G-Shock / F91W)
+│   └── Timex
+│
+├── Dive / Sport Watches
+│   ├── View All Watches
+│   ├── Seiko
+│   ├── Casio
+│   └── Invicta
